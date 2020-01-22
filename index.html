@@ -27,22 +27,55 @@
         </header>
 
         <section>
-            <!-- la seccion se formará de dos partes: tendrá una imagen de fondo con con una posible frase
-            y nuestro portafolio laboral (las cosas que haceos o lo que ofrecemos) -->
+            <!-- la seccion se formará de tres partes: tendrá una imagen de fondo con con una posible frase
+            y nuestro portafolio laboral (las cosas que haceos o lo que ofrecemos) y el formulario para el contacto -->
             <section>
                 <!-- tendrá la imagen de fondo con la frase  -->
                 <!-- contenedor de la imagen -->
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, animi.</p>
                 <div>
                     <img src="multimedia/ali-yahya-ytNFYf4d_30-unsplash.jpg" alt="Photo by Ali Yahya on Unsplash">
                 </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, animi.</p>
             </section>
             <section>
-                <!-- tendrá el portafolio laboral -->
+                <!-- tendrá el portafolio laboral-->
+                <!-- cada div contendrá una imagen, y un enlace para mayor información -->
+                <h2>Portafolio Laboral</h2>
+                <div>
+                    <div><img src="/multimedia/img/hal-gatewood-tZc3vjPCk-Q-unsplash.jpg" alt=""></div>
+                    <div><a href="">Desarrollo de páginas web</a></div>
+                </div>
+                <div>
+                    <div><img src="/multimedia/img/fotis-fotopoulos-LJ9KY8pIH3E-unsplash.jpg" alt=""></div>
+                    <div><a href="">Sistemas informáticos</a></div>
+                </div>
+                <div>
+                    <div><img src="/multimedia/img/taylor-vick-M5tzZtFCOfs-unsplash.jpg" alt=""></div>
+                    <div><a href="">Soporte para sistemas</a></div>
+                </div>
+                <div>
+                    <div><img src="/multimedia/img/caspar-camille-rubin-89xuP-XmyrA-unsplash.jpg" alt=""></div>
+                    <div><a href="">Desarrollo de apps móviles</a></div>
+                </div>
             </section>
         </section>
         <footer>
-            <!-- iconos deredes solciales, derechos reservados, contacto, etc -->
+            <section>
+                <!-- contendrá el formulario para el contacto -->
+                <form action="" class="formulario" id="formulario" name="formulario">
+                    <!-- contenedor de los imput: -->
+                    <div class="contenedor-imputs">
+                        <input type="text" name="nombre" placeholder="Nombre">
+                        <input type="text" name="apellidos" placeholder="Apellidos">
+                        <input type="email" name="correo" placeholder="Correo">
+                        <textarea name="mensaje" placeholder="Mensaje:"></textarea>
+                        <input class="boton" type="submit" value="Enviar">
+                    </div>
+                </form>
+            </section>
+            <div>
+                <p>Todos los Derechos Reservados.</p>
+            </div>
         </footer>
     </div>
 
