@@ -1,31 +1,78 @@
-/* estilos */
-
-
-/* font-family: 'Roboto', sans-serif; */
-
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-}
-
-body {
-    font-family: "Roboto", sans-serif;
-    font-size: 16px;
-}
-
-.contenedor-principal {
-    width: 100%;
-}
-
-header {
-    background-color: #f2f2f2;
-    width: 100%;
-    padding: 50px 0;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-}
+    /* estilos */
+    /* font-family: 'Roboto', sans-serif; */
+    /*font-family: 'Prata', serif;*/
+    
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+    }
+    
+    body {
+        font-family: "Roboto", sans-serif;
+        font-size: 16px;
+    }
+    
+    .contenedor-principal {
+        width: 100%;
+    }
+    /* -------------------HEADER----------------- */
+    
+    header {
+        background-color: #f2f2f2;
+        width: 100%;
+        padding: 10px 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        position: fixed;
+    }
+    
+    .contenedor-logo {
+        margin-left: 30px;
+    }
+    
+    .img-logo {
+        max-width: 50px;
+    }
+    
+    .menu-superior div {
+        display: inline-block;
+        margin: 0 10px;
+    }
+    
+    .menu-superior div a {
+        text-decoration: none;
+        color: #08679d;
+        border-bottom: 1px solid transparent;
+    }
+    
+    .menu-superior div a:hover {
+        border-bottom: #08679d;
+        border-bottom: 1px solid #08679d;
+        transition: 0.5s;
+    }
+    /* ------------SECCION PRESENTACION-------------- */
+    
+    .presentacion {
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    .imagen-presentacion img {
+        width: 100%;
+        background-color: #f2f2f2;
+    }
+    
+    .presentacion p {
+        width: 60%;
+        margin: 20px auto;
+        text-align: center;
+        font-size: 3em;
+        padding: 15px 0;
+        color: #0a1128;
+        font-family: 'Prata', serif;
+    }
