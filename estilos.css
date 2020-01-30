@@ -24,6 +24,7 @@
         background-color: #f2f2f2;
         width: 100%;
         padding: 10px 0;
+        border-bottom: solid 3px #08679d;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -75,4 +76,86 @@
         padding: 15px 0;
         color: #0a1128;
         font-family: 'Prata', serif;
+    }
+
+    /* ------------------SECCION PORTAFOLIO-------- */
+    .fondo-portafolio {
+        width: 100%;
+        background-color: #f2f2f2
+    }
+
+    .portafolio {
+        width: 85%;
+        margin: 30px auto 0 auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .portafolio .desarrollo-web,
+    .portafolio .sistemas-informaticos,
+    .portafolio .soporte-sistemas,
+    .portafolio .app-moviles {
+        margin: 50px 30px;
+        /* padding: 15px 50px; */
+    }
+
+    .portafolio .desarrollo-web img,
+    .portafolio .sistemas-informaticos img,
+    .portafolio .soporte-sistemas img,
+    .portafolio .app-moviles img {
+        width: 450px;
+        margin: 0 20px; 
+        margin-bottom: 10px;
+        border-radius: 10px;
+    }
+
+    .portafolio .soporte-sistemas img {
+        height: 300px;
+    }
+
+    .titulo {
+        text-align: center;
+        font-size: x-large;
+        
+    }
+
+    .titulo a {
+        text-decoration: none;
+        color: #08679d;
+        border-bottom: 1px solid transparent;
+    }
+
+    .portafolio .desarrollo-web img:hover,
+    .portafolio .sistemas-informaticos img:hover,
+    .portafolio .soporte-sistemas img:hover,
+    .portafolio .app-moviles img:hover {
+        opacity: 60%;
+        transition: .5s;
+        cursor: pointer;
+    }
+
+    .titulo a:hover {
+        border-bottom: #08679d;
+        border-bottom: 2px solid #08679d;
+        transition: 0.5s;
+        cursor: pointer;
+    }
+    /* -------------FOOTER---------------------- */
+    .formulario {
+        width: 100%;
+        background-color: #08679d;
+    }
+
+    .formulario p {
+        color: #fff;
+        font-size: 50px;
+        padding: 30px 0;
+        text-align: center;
+    }
+
+    .formulario .contenedor-imputs {
+        width: 80%;
+        margin: 0 auto;
     }

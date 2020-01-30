@@ -41,38 +41,48 @@
                 </div>
                 <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, animi."</p>
             </section>
-            <section>
-                <!-- tendrá el portafolio laboral-->
-                <!-- cada div contendrá una imagen, y un enlace para mayor información -->
-                <h2>Portafolio Laboral</h2>
-                <div>
-                    <div><img src="/multimedia/img/hal-gatewood-tZc3vjPCk-Q-unsplash.jpg" alt=""></div>
-                    <div><a href="">Desarrollo de páginas web</a></div>
-                </div>
-                <div>
-                    <div><img src="/multimedia/img/fotis-fotopoulos-LJ9KY8pIH3E-unsplash.jpg" alt=""></div>
-                    <div><a href="">Sistemas informáticos</a></div>
-                </div>
-                <div>
-                    <div><img src="/multimedia/img/taylor-vick-M5tzZtFCOfs-unsplash.jpg" alt=""></div>
-                    <div><a href="">Soporte para sistemas</a></div>
-                </div>
-                <div>
-                    <div><img src="/multimedia/img/caspar-camille-rubin-89xuP-XmyrA-unsplash.jpg" alt=""></div>
-                    <div><a href="">Desarrollo de apps móviles</a></div>
-                </div>
-            </section>
+                <div class="fondo-portafolio">
+                    <section class="portafolio">
+                        <!-- tendrá el portafolio laboral-->
+                        <!-- cada div contendrá una imagen, y un enlace para mayor información -->
+                        <div class="desarrollo-web">
+                            <div><img src="./multimedia/img/hal-gatewood-tZc3vjPCk-Q-unsplash.jpg" alt=""></div>
+                            <div class="titulo"><a href="">Desarrollo de páginas web</a></div>
+                        </div>
+                        <div class="sistemas-informaticos">
+                            <div><img src="./multimedia/img/fotis-fotopoulos-LJ9KY8pIH3E-unsplash.jpg" alt=""></div>
+                            <div class="titulo"><a href="">Sistemas informáticos</a></div>
+                        </div>
+                        <div class="soporte-sistemas">
+                            <div><img src="./multimedia/img/taylor-vick-M5tzZtFCOfs-unsplash.jpg" alt=""></div>
+                            <div class="titulo"><a href="">Soporte para sistemas</a></div>
+                        </div>
+                        <div class="app-moviles">
+                            <div><img src="./multimedia/img/caspar-camille-rubin-89xuP-XmyrA-unsplash.jpg" alt=""></div>
+                            <div class="titulo"><a href="">Desarrollo de apps móviles</a></div>
+                        </div>
+                    </section>
+                </div>          
         </section>
         <footer>
             <section>
                 <!-- contendrá el formulario para el contacto -->
                 <form action="" class="formulario" id="formulario" name="formulario">
+                    <p>Contáctanos</p>
                     <!-- contenedor de los imput: -->
                     <div class="contenedor-imputs">
-                        <input type="text" name="nombre" placeholder="Nombre">
-                        <input type="text" name="apellidos" placeholder="Apellidos">
-                        <input type="email" name="correo" placeholder="Correo">
-                        <textarea name="mensaje" placeholder="Mensaje:"></textarea>
+                        <div>
+                            <input type="text" name="nombre" placeholder="Nombre">
+                        </div>
+                        <div>
+                            <input type="text" name="apellidos" placeholder="Apellidos">
+                        </div>
+                        <di>
+                            <input type="email" name="correo" placeholder="Correo">
+                        </di>
+                        <div>
+                            <textarea name="mensaje" placeholder="Mensaje:"></textarea>
+                        </div>
                         <input class="boton" type="submit" value="Enviar">
                     </div>
                 </form>
